@@ -57,6 +57,10 @@ form {
   line-height: 1.5;
 }
 
+#poem strong {
+  color: rgb(127, 135, 124);
+}
+
 footer {
   text-align: center;
 }
