@@ -46,7 +46,7 @@ form {
   color: white;
 }
 
-.poem {
+#poem {
   padding: 30px;
   background-color: rgb(255, 255, 255);
   box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
