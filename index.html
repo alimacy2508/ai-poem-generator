@@ -14,19 +14,22 @@
         <h1>AI Travel Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-generator">
-          <input
-            type="text"
-            autofocus
-            placeholder="Enter the topic of your travel poem"
-            required
-            autocomplete="off"
-            class="prompt-box"
-            id="prompt-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div id="poem"></div>
+        <div id="form-wrapper">
+          <form id="poem-generator">
+            <input
+              type="text"
+              autofocus
+              placeholder="Enter the topic of a travel poem you would like to generate"
+              required
+              autocomplete="off"
+              class="prompt-box"
+              id="prompt-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <small id="hint">i.e. airport, suitcase, airplane...</small>
+        </div>
+        <div class="poem-hidden" id="poem"></div>
       </main>
 
       <footer>
