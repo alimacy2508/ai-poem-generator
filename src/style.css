@@ -1,5 +1,6 @@
 body {
   background-color: rgb(245, 237, 249);
+  font-family: "Lora", serif;
 }
 
 .container {
@@ -79,6 +80,7 @@ form {
 
 footer {
   text-align: center;
+  font-size: 14px;
 }
 
 footer a {
