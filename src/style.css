@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(231, 217, 204);
+  background-color: rgb(245, 237, 249);
 }
 
 .container {
@@ -8,11 +8,13 @@ body {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 600;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(127, 135, 124);
+  color: rgb(174, 88, 211);
   line-height: 1.5;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 header {
@@ -42,8 +44,8 @@ form {
   width: 80%;
   padding: 15px;
   border-radius: 40px;
-  border: 1px solid rgb(127, 135, 124);
-  font-size: 16px;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  font-size: 14px;
 }
 
 .submit-button {
@@ -51,27 +53,27 @@ form {
   width: 100px;
   border-radius: 40px;
   border: none;
-  background-color: rgb(127, 135, 124);
+  background-color: rgb(174, 88, 211);
   font-size: 16px;
   color: white;
 }
 
-#poem {
+#destination {
   padding: 30px;
   background-color: rgb(255, 255, 255);
   box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
-  border-left: 3px solid rgb(127, 135, 124);
+  border-left: 3px solid rgb(174, 88, 211);
   border-radius: 10px;
   margin-bottom: 30px;
   font-size: 15px;
   line-height: 1.5;
 }
 
-#poem strong {
-  color: rgb(127, 135, 124);
+#destination strong {
+  color: rgb(174, 88, 211);
 }
 
-.poem-hidden {
+.destination-hidden {
   display: none;
 }
 
@@ -80,5 +82,17 @@ footer {
 }
 
 footer a {
-  color: rgb(127, 135, 124);
+  color: rgb(174, 88, 211);
+}
+
+#extra-footer {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+#travel-icon {
+  width: 45%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
 }

@@ -6,30 +6,29 @@
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <title>AI Poem Generator</title>
+    <title>AI Travel Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Travel Poem Generator</h1>
+        <h1>Travel Destination Generator</h1>
       </header>
       <main>
         <div id="form-wrapper">
-          <form id="poem-generator">
+          <form id="destination-generator">
             <input
               type="text"
               autofocus
-              placeholder="Enter the topic of a travel poem you would like to generate"
-              required
+              placeholder="Enter an adjective of the type of place you would like to travel"
               autocomplete="off"
               class="prompt-box"
               id="prompt-instructions"
             />
             <input type="submit" class="submit-button" />
           </form>
-          <small id="hint">i.e. airport, suitcase, airplane...</small>
+          <small id="hint">i.e. warm, historical, remote</small>
         </div>
-        <div class="poem-hidden" id="poem"></div>
+        <div class="destination-hidden" id="destination"></div>
       </main>
 
       <footer>
@@ -45,8 +44,22 @@
         <a href="https://creating-ai-poems.netlify.app/" target="_blank"
           >Netlify</a
         >
+        <div id="extra-footer">
+          Travel icon was created by
+          <a
+            href="https://www.freepik.com/free-vector/travel-destination-choosing_10780544.htm#query=travel%20illustration&position=13&from_view=keyword&track=ais&uuid=849a0c30-fba5-429c-ae7c-9ce28bf9aa1c"
+          >
+            by Vectorjuice on Freepik</a
+          >
+        </div>
       </footer>
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/121/939/original/travel_destination-icon.png?1712316210"
+        id="travel-icon"
+      />
     </div>
+
     <script src="src/javascript.js"></script>
   </body>
 </html>
